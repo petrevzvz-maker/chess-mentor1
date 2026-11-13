@@ -29,3 +29,7 @@ android {
         jvmTarget = "17"
     }
 }
+
+kotlin {
+    jvmToolchain(17)
+}
